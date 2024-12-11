@@ -1,4 +1,4 @@
-package microfinance_mgt_system_ea_project.entity;
+package microfinance_mgt_system_ea_project.userDomain.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

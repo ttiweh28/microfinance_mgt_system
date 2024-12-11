@@ -1,4 +1,4 @@
-package microfinance_mgt_system_ea_project.entity;
+package microfinance_mgt_system_ea_project.loanDomain.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

@@ -1,9 +1,10 @@
-package microfinance_mgt_system_ea_project.entity;
+package microfinance_mgt_system_ea_project.branchDomain.entity;
 
 import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
+import microfinance_mgt_system_ea_project.entity.Address;
 
 @Entity
 public class Branch {

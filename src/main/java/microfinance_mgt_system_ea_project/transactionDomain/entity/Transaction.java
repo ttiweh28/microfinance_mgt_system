@@ -1,6 +1,8 @@
-package microfinance_mgt_system_ea_project.entity;
+package microfinance_mgt_system_ea_project.transactionDomain.entity;
 
 import jakarta.persistence.*;
+import microfinance_mgt_system_ea_project.accountDomain.entity.Account;
+import microfinance_mgt_system_ea_project.transactionDomain.TransactionStatus;
 
 import java.util.Date;
 
@@ -20,7 +22,7 @@ public class Transaction {
         private TransactionStatus status;
 
         @ManyToOne
-        private Account Account;
+        private microfinance_mgt_system_ea_project.accountDomain.entity.Account Account;
 
 
         public Long getId() {
